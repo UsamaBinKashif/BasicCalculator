@@ -1,0 +1,147 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+    background-color: #000000;
+    color: white;
+}
+header{
+margin-bottom: 5%;
+}
+
+table {
+
+    background-color: #23395B;
+    width: 295px;
+    height: 325px;
+    text-align: center;
+    border-radius: 4px;
+
+}
+
+
+/* input */
+
+input {
+    width: 250px;
+    height: 40px;
+    border: 3px solid #000000;
+  outline: none;
+  text-align: end;
+  font-size: 20px;
+}
+
+/* ----- */
+
+/* Buttons */
+.Btn {
+    border: 2px solid #000000;
+    padding: 6px 20px;
+    color: #000000;
+    background-color: #59C9A5;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.clearBtn {
+    border: 2px solid #000000;
+    padding: 5px 60px;
+    background-color: #D81E5B;
+    color: #FFFFFF;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.BtnOp{
+    border: 2px solid #000000;
+    padding: 6px 20px;
+    color: #000000;
+    background-color: #fffd6d;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.BtnEq{
+    border: 2px solid #000000;
+    padding: 6px 20px;
+    color: #FFFFFF;
+    background-color: #1be45a;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+
+.Btn:hover,.BtnEq:hover,.BtnOp:hover,.clearBtn:hover{
+color: #000000;
+background-color: #FFFFFF;
+transition: 0.2s ease;
+padding: 5px 20px;
+}
+.Btn:hover{
+    border: 2px solid #59C9A5;
+    
+}
+.BtnEq:hover{
+    border: 2px solid #1be45a;
+}
+.BtnOp:hover{
+    border: 2px solid #fffd6d;
+    
+}
+.clearBtn:hover{
+   background-color:  #D81E5B;
+    padding: 5px 60px ;
+    color: #FFFFFF;
+}
+/* ----- */
+
+
+footer{
+   
+margin-top: 5%;
+;
+}
+.icons {
+   border: none;
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   align-items: center;
+   
+
+}
+
+.icons i{
+    color: #FFFFFF;
+    font-size: 20px;
+    text-decoration: none;
+     margin: 0 2px;
+}
+.f:hover{
+    color: royalblue !important;
+}
+.in:hover{
+    background: rgb(184, 36, 135) !important;
+
+}
+.gi:hover{
+color: #38353585;
+}
+
+@media only screen and (max-width: 600px) {
+
+    footer{
+       margin-top: 30%;
+    }
+
+}
